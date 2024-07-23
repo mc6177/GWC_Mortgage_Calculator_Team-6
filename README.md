@@ -37,4 +37,6 @@ https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F
 
 # How to use Git with Android Studio
 
+![a relative link](Git_with_AndroidStudio.md)
+
 
