@@ -35,4 +35,5 @@ In this project, you will be coding a mortgage calculator. At this point, you sh
 
 ![Git with Android Studio Documentation](Git_with_AndroidStudio.md)
 
-
+# How to Import a Repository and Add Collaborators 
+![Importing a Repository and Adding Collaborators Documentation](Import_repository.md)
