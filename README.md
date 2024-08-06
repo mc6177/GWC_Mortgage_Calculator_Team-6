@@ -10,6 +10,10 @@ In this project, you will be coding a mortgage calculator. At this point, you sh
   * have the following label information: house price (should match from Home's Details screen), current interest rate
   * Calculate button; when clicked should display the mortgage rate clearly to the user
 
+# How to Import a Repository and Add Collaborators 
+
+To setup your teams project, please first have the Lead Developer follow the steps to import a repository. The lead developer should then add your team as collaborators. 
+![Importing a Repository and Adding Collaborators Documentation](Import_repository.md)
 
 # Android Project Setup with Android Studio
 
