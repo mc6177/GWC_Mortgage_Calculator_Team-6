@@ -38,6 +38,3 @@ To setup your teams project, please first have the Lead Developer follow the ste
 # How to use Git with Android Studio
 
 ![Git with Android Studio Documentation](Git_with_AndroidStudio.md)
-
-# How to Import a Repository and Add Collaborators 
-![Importing a Repository and Adding Collaborators Documentation](Import_repository.md)
