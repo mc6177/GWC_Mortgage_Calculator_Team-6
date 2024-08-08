@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity(), View.OnClickListener {
         editor.putString("password", password)
         editor.apply()
 
-        Toast.makeText(this, "Logging in..", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Signing on..", Toast.LENGTH_SHORT).show()
 
     }
 }
