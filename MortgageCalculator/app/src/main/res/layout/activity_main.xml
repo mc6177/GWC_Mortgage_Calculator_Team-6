@@ -13,88 +13,90 @@
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <RelativeLayout
+        <!-- Background Image -->
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/screenshot_2024_08_08_131447" />
+
+        <!-- Main Content -->
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/screenshot_2024_08_08_131447" />
+            <!-- Email Input -->
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                tools:visibility="invisible">
+            <Button
+                android:id="@+id/createButton"
+                android:layout_width="135dp"
+                android:layout_height="21dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.021"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
+                app:layout_constraintVertical_bias="0.097" />
 
-                <Button
-                    android:id="@+id/button223"
-                    android:layout_width="164dp"
-                    android:layout_height="34dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginEnd="118dp"
-                    android:layout_marginBottom="239dp"
-                    android:background="#00FFFFFF"
-                    android:backgroundTint="#00FFFFFF"
-                    tools:ignore="DuplicateIds"
-                    tools:visibility="invisible" />
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="135dp"
+                android:layout_height="21dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.978"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
+                app:layout_constraintVertical_bias="0.115" />
 
-                <Button
-                    android:id="@+id/button227"
-                    android:layout_width="129dp"
-                    android:layout_height="24dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginEnd="269dp"
-                    android:layout_marginBottom="356dp"
-                    android:background="#00FFFFFF"
-                    android:backgroundTint="#00FFFFFF"
-                    tools:visibility="invisible" />
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="364dp"
+                android:layout_marginEnd="22dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="Online ID"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-                <EditText
-                    android:id="@+id/editTextTextPassword"
-                    android:layout_width="363dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginStart="19dp"
-                    android:layout_marginBottom="402dp"
-                    android:backgroundTint="#00FFFFFF"
-                    android:drawableTint="#00FFFFFF"
-                    android:ems="10"
-                    android:inputType="textPassword"
-                    tools:visibility="invisible" />
+            <!-- Password Input -->
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="22dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editTextTextEmailAddress" />
 
-                <EditText
-                    android:id="@+id/editTextTextEmailAddress"
-                    android:layout_width="362dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="22dp"
-                    android:layout_marginTop="364dp"
-                    android:ems="10"
-                    android:inputType="textEmailAddress"
-                    tools:text="Online ID"
-                    tools:visibility="visible" />
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="186dp"
+                android:layout_height="43dp"
+                android:background="#00FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.537"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
+                app:layout_constraintVertical_bias="0.38" />
 
-                <Button
-                    android:id="@+id/button223"
-                    android:layout_width="146dp"
-                    android:layout_height="17dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginEnd="2dp"
-                    android:layout_marginBottom="359dp"
-                    android:background="#00FFFFFF"
-                    android:backgroundTint="#00FFFFFF"
-                    tools:ignore="DuplicateIds"
-                    tools:visibility="invisible" />
-            </RelativeLayout>
-        </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </RelativeLayout>
 </LinearLayout>
-
-

@@ -1,37 +1,58 @@
 package com.example.mortgagecalculator
 
+import android.content.Context
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.mortgagecalculator.ui.theme.MortgageCalculatorTheme
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
-
+import androidx.activity.ComponentActivity
+import android.widget.Toast
 
 class MainActivity : ComponentActivity(), View.OnClickListener {
-    lateinit var btnSubmit : Button
-    lateinit var btnCreateAccount:  Button
-    lateinit var btnResetPassword: Button
-    lateinit var etPass: EditText
-    lateinit var etUser: EditText
+    // Declare UI components
+    private lateinit var btnSubmit: Button
+    private lateinit var btnCreateAccount: Button
+    private lateinit var btnResetPassword: Button
+    private lateinit var etPass: EditText
+    private lateinit var etUser: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // Initialize UI components
+        btnSubmit = findViewById(R.id.submitButton)  // Ensure the ID here matches the XML
+        btnCreateAccount = findViewById(R.id.createButton)
+        btnResetPassword = findViewById(R.id.resetButton)
+        etPass = findViewById(R.id.editTextTextPassword)
+        etUser = findViewById(R.id.editTextTextEmailAddress)
+
+        // Set onClickListener for the submit button
+        btnSubmit.setOnClickListener(this)
     }
 
-    override fun onClick(p0: View?) {
-        TODO("Not yet implemented")
+    override fun onClick(view: View?) {
+        when(view?.id) {
+            R.id.submitButton -> saveCredentials()
+            // Add other button cases here if needed
+        }
+    }
+
+    // Method to save credentials
+    private fun saveCredentials() {
+        val sharedPref = getSharedPreferences("UserCredentials", Context.MODE_PRIVATE)
+        val editor = sharedPref.edit()
+
+        // Get user input from EditTexts
+        val email = etUser.text.toString()
+        val password = etPass.text.toString()
+
+        // Save the data in SharedPreferences
+        editor.putString("username", email)
+        editor.putString("password", password)
+        editor.apply()
+
+        Toast.makeText(this, "Logging in..", Toast.LENGTH_SHORT).show()
+
     }
 }
-
