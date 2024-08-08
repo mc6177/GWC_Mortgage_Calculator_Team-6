@@ -47,12 +47,16 @@ class MainActivity : ComponentActivity(), View.OnClickListener {
         val email = etUser.text.toString()
         val password = etPass.text.toString()
 
-        // Save the data in SharedPreferences
-        editor.putString("username", email)
-        editor.putString("password", password)
-        editor.apply()
+        if ((email.length in 4..11) && password.length > 5) {
+            Toast.makeText(this, "Signing on..", Toast.LENGTH_SHORT).show()
 
-        Toast.makeText(this, "Signing on..", Toast.LENGTH_SHORT).show()
+            // Save the data in SharedPreferences
+            editor.putString("username", email)
+            editor.putString("password", password)
+            editor.apply()
+        } else {
+            Toast.makeText(this, "Try Again. Username or Password is too short.", Toast.LENGTH_SHORT).show()
+        }
 
     }
 }
