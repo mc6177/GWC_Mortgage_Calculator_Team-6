@@ -1,0 +1,2520 @@
+{
+  "name": "personal_info",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "H9l76i3OOsM2tDQw0uRJi3",
+    "node": "166:838",
+    "version": "6384059165",
+    "component-id": "53c175c71fc9769be682b2f8922c6ea797e1d237"
+  },
+  "default": "Personal Info",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "logOutButton"
+      },
+      {
+        "type": "group",
+        "id": "Page Newsletter"
+      },
+      {
+        "type": "group",
+        "id": "Form Contact"
+      },
+      {
+        "type": "group",
+        "id": "Mortgage Calculator Title"
+      },
+      {
+        "type": "vector",
+        "id": "Polygon 15"
+      },
+      {
+        "type": "vector",
+        "id": "Polygon 16"
+      },
+      {
+        "type": "vector",
+        "id": "Polygon 17"
+      },
+      {
+        "type": "vector",
+        "id": "Polygon 18"
+      },
+      {
+        "type": "text",
+        "id": "House Selection Title"
+      },
+      {
+        "type": "vector",
+        "id": "house 14"
+      },
+      {
+        "type": "vector",
+        "id": "house 15"
+      },
+      {
+        "type": "vector",
+        "id": "house 16"
+      },
+      {
+        "type": "vector",
+        "id": "house 17"
+      },
+      {
+        "type": "group",
+        "id": "trailing-icon"
+      },
+      {
+        "type": "group",
+        "id": "leading-icon"
+      },
+      {
+        "type": "vector",
+        "id": "house 18"
+      },
+      {
+        "type": "vector",
+        "id": "house 19"
+      },
+      {
+        "type": "vector",
+        "id": "house 20"
+      },
+      {
+        "type": "vector",
+        "id": "house 21"
+      },
+      {
+        "type": "group",
+        "id": "state-layer"
+      },
+      {
+        "type": "text",
+        "id": "label-text"
+      },
+      {
+        "type": "group",
+        "id": "Text Content Heading"
+      },
+      {
+        "type": "group",
+        "id": "Newsletter"
+      },
+      {
+        "type": "text",
+        "id": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "Subheading"
+      },
+      {
+        "type": "group",
+        "id": "Input"
+      },
+      {
+        "type": "group",
+        "id": "Button"
+      },
+      {
+        "type": "text",
+        "id": "Hello World"
+      },
+      {
+        "type": "group",
+        "id": "Star"
+      },
+      {
+        "type": "text",
+        "id": "Button1"
+      },
+      {
+        "type": "group",
+        "id": "X"
+      },
+      {
+        "type": "vector",
+        "id": "Icon"
+      },
+      {
+        "type": "vector",
+        "id": "Icon1"
+      },
+      {
+        "type": "group",
+        "id": "Input Field"
+      },
+      {
+        "type": "group",
+        "id": "Input Field1"
+      },
+      {
+        "type": "group",
+        "id": "Input Field2"
+      },
+      {
+        "type": "group",
+        "id": "Textarea Field"
+      },
+      {
+        "type": "group",
+        "id": "Button Group"
+      },
+      {
+        "type": "text",
+        "id": "Label"
+      },
+      {
+        "type": "text",
+        "id": "Description"
+      },
+      {
+        "type": "group",
+        "id": "Input1"
+      },
+      {
+        "type": "text",
+        "id": "Error"
+      },
+      {
+        "type": "text",
+        "id": "Value"
+      },
+      {
+        "type": "text",
+        "id": "Label1"
+      },
+      {
+        "type": "text",
+        "id": "Description1"
+      },
+      {
+        "type": "group",
+        "id": "Input2"
+      },
+      {
+        "type": "text",
+        "id": "Error1"
+      },
+      {
+        "type": "text",
+        "id": "Value1"
+      },
+      {
+        "type": "text",
+        "id": "Label2"
+      },
+      {
+        "type": "text",
+        "id": "Description2"
+      },
+      {
+        "type": "group",
+        "id": "Input3"
+      },
+      {
+        "type": "text",
+        "id": "Error2"
+      },
+      {
+        "type": "text",
+        "id": "Value2"
+      },
+      {
+        "type": "text",
+        "id": "Label3"
+      },
+      {
+        "type": "text",
+        "id": "Description3"
+      },
+      {
+        "type": "group",
+        "id": "Textarea"
+      },
+      {
+        "type": "text",
+        "id": "Hint"
+      },
+      {
+        "type": "group",
+        "id": "Textarea_synth"
+      },
+      {
+        "type": "vector",
+        "id": "Drag"
+      },
+      {
+        "type": "text",
+        "id": "Value3"
+      },
+      {
+        "type": "group",
+        "id": "Button2"
+      },
+      {
+        "type": "group",
+        "id": "Button3"
+      },
+      {
+        "type": "group",
+        "id": "Star1"
+      },
+      {
+        "type": "text",
+        "id": "Button4"
+      },
+      {
+        "type": "group",
+        "id": "X1"
+      },
+      {
+        "type": "vector",
+        "id": "Icon2"
+      },
+      {
+        "type": "vector",
+        "id": "Icon3"
+      },
+      {
+        "type": "group",
+        "id": "Star2"
+      },
+      {
+        "type": "text",
+        "id": "Button5"
+      },
+      {
+        "type": "group",
+        "id": "X2"
+      },
+      {
+        "type": "vector",
+        "id": "Icon4"
+      },
+      {
+        "type": "vector",
+        "id": "Icon5"
+      },
+      {
+        "type": "group",
+        "id": "leading-icon1"
+      },
+      {
+        "type": "text",
+        "id": "House Selection Title1"
+      },
+      {
+        "type": "group",
+        "id": "trailing-icon1"
+      },
+      {
+        "type": "group",
+        "id": "container"
+      },
+      {
+        "type": "group",
+        "id": "state-layer1"
+      },
+      {
+        "type": "group",
+        "id": "Icon6"
+      },
+      {
+        "type": "vector",
+        "id": "icon"
+      },
+      {
+        "type": "group",
+        "id": "container1"
+      },
+      {
+        "type": "group",
+        "id": "state-layer2"
+      },
+      {
+        "type": "group",
+        "id": "Icon7"
+      },
+      {
+        "type": "vector",
+        "id": "icon1"
+      },
+      {
+        "type": "group",
+        "id": "container2"
+      },
+      {
+        "type": "group",
+        "id": "state-layer3"
+      },
+      {
+        "type": "group",
+        "id": "Icon8"
+      },
+      {
+        "type": "vector",
+        "id": "icon2"
+      },
+      {
+        "type": "group",
+        "id": "container3"
+      },
+      {
+        "type": "group",
+        "id": "state-layer4"
+      },
+      {
+        "type": "group",
+        "id": "Icon9"
+      },
+      {
+        "type": "vector",
+        "id": "icon3"
+      }
+    ],
+    "modes": {
+      "Personal Info": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "logOutButton",
+              "Page Newsletter",
+              "Form Contact",
+              "Mortgage Calculator Title",
+              "Polygon 15",
+              "Polygon 16",
+              "Polygon 17",
+              "Polygon 18",
+              "House Selection Title",
+              "house 14",
+              "house 15",
+              "house 16",
+              "house 17",
+              "trailing-icon",
+              "leading-icon",
+              "house 18",
+              "house 19",
+              "house 20",
+              "house 21"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "logOutButton",
+            "border-radius": 100.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 155.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 853.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "stroke-alignment": "center",
+            "children": [
+              "state-layer"
+            ],
+            "item-spacing": 8.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            }
+          },
+          {
+            "id": "Page Newsletter",
+            "padding": 64.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 70.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 643.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 288.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 147.0
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Text Content Heading",
+              "Newsletter"
+            ],
+            "item-spacing": 24.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Form Contact",
+            "padding": 24.0,
+            "border-radius": 8.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 54.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 183.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.8509803921568627
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Input Field",
+              "Input Field1",
+              "Input Field2",
+              "Textarea Field",
+              "Button Group"
+            ],
+            "item-spacing": 24.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Mortgage Calculator Title",
+            "padding": {
+              "left": 4.0,
+              "top": 8.0,
+              "right": 4.0,
+              "bottom": 8.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 52.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 428.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 67.0
+              }
+            },
+            "stroke-alignment": "center",
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "leading-icon1",
+              "House Selection Title1",
+              "trailing-icon1"
+            ],
+            "item-spacing": 6.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Polygon 15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -6.9957222834268435
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 30.08491692427137
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 122.99169158935547
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 108.95130157470703
+              }
+            },
+            "vector-content": "polygon_15.svg"
+          },
+          {
+            "id": "Polygon 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -6.9957222834268435
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 30.08491692427137
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 122.99169158935547
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 108.95130157470703
+              }
+            },
+            "vector-content": "polygon_16.svg"
+          },
+          {
+            "id": "Polygon 17",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -6.9957222834268435
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 30.08491692427137
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 122.99169158935547
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 108.95130157470703
+              }
+            },
+            "vector-content": "polygon_17.svg"
+          },
+          {
+            "id": "Polygon 18",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -6.9957222834268435
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 30.08491692427137
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 122.99169158935547
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 108.95130157470703
+              }
+            },
+            "vector-content": "polygon_18.svg"
+          },
+          {
+            "id": "House Selection Title",
+            "margin": {
+              "left": 39.0,
+              "right": 23.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -814.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Submit an Inquiry",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 22.0,
+            "line-height": 1.272727279663086
+          },
+          {
+            "id": "house 14",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -717.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "house 15",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -717.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "house 16",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -717.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "house 17",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -717.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "trailing-icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -14.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 61.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              }
+            },
+            "children": [
+              "container2"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "leading-icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -11.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 61.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              }
+            },
+            "children": [
+              "container3"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "house 18",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -198.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "house 19",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -198.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "house 20",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -198.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "house 21",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -198.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -200.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1799.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1280.0
+              }
+            }
+          },
+          {
+            "id": "state-layer",
+            "padding": {
+              "left": 24.0,
+              "top": 10.0,
+              "right": 24.0,
+              "bottom": 10.0
+            },
+            "arrangement": "row",
+            "children": [
+              "label-text"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "label-text",
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Log out",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": 16.0,
+            "letter-spacing": 0.15000000596046448,
+            "line-height": 1.5
+          },
+          {
+            "id": "Text Content Heading",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Heading",
+              "Subheading"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "Newsletter",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "end",
+            "children": [
+              "Input",
+              "Button"
+            ],
+            "item-spacing": 12.0,
+            "clip-content": false
+          },
+          {
+            "id": "Heading",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            },
+            "text-content": "Find the best deals ",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 24.0,
+            "letter-spacing": -0.48,
+            "line-height": 1.2000000762939453,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Subheading",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 355.2147239263804,
+              "saturation": 0.7990196078431373,
+              "value": 0.8
+            },
+            "text-content": "With our daily newsletter",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 20.0,
+            "line-height": 1.2000000762939453,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Input",
+            "padding": {
+              "left": 16.0,
+              "top": 12.0,
+              "right": 16.0,
+              "bottom": 12.0
+            },
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 249.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-alignment": "center",
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.8509803921568627
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Hello World"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Button",
+            "padding": 12.0,
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.17254901960784313
+            },
+            "arrangement": "row",
+            "children": [
+              "Star",
+              "Button1",
+              "X"
+            ],
+            "item-spacing": 8.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            }
+          },
+          {
+            "id": "Hello World",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.7019607843137254
+            },
+            "text-content": "you@example.com",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Star",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon"
+            ]
+          },
+          {
+            "id": "Button1",
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9607843137254902
+            },
+            "text-content": "Submit",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "letter-spacing": 0.15000000596046448,
+            "line-height": 1.5
+          },
+          {
+            "id": "X",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon1"
+            ]
+          },
+          {
+            "id": "Icon",
+            "margin": {
+              "left": 1.333251953125,
+              "top": 1.333343505859375,
+              "right": 1.3334150314331055,
+              "bottom": 1.9866561889648438
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Icon1",
+            "margin": 4.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Input Field",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Label",
+              "Description",
+              "Input1",
+              "Error"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "Input Field1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Label1",
+              "Description1",
+              "Input2",
+              "Error1"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "Input Field2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Label2",
+              "Description2",
+              "Input3",
+              "Error2"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "Textarea Field",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Label3",
+              "Description3",
+              "Textarea",
+              "Hint"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "Button Group",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Button2",
+              "Button3"
+            ],
+            "item-spacing": 16.0,
+            "clip-content": false
+          },
+          {
+            "id": "Label",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            },
+            "text-content": "First Name",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "letter-spacing": 0.15000000596046448,
+            "line-height": 1.5
+          },
+          {
+            "id": "Description",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.4588235294117647
+            },
+            "text-content": "Description",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Input1",
+            "padding": {
+              "left": 16.0,
+              "top": 12.0,
+              "right": 16.0,
+              "bottom": 12.0
+            },
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-alignment": "center",
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.8509803921568627
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Value"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Error",
+            "presence": false,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.11764705882352941
+            },
+            "text-content": "Error",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Value",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.7019607843137254
+            },
+            "text-content": "Value",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Label1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            },
+            "text-content": "Last name",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "letter-spacing": 0.15000000596046448,
+            "line-height": 1.5
+          },
+          {
+            "id": "Description1",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.4588235294117647
+            },
+            "text-content": "Description",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Input2",
+            "padding": {
+              "left": 16.0,
+              "top": 12.0,
+              "right": 16.0,
+              "bottom": 12.0
+            },
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-alignment": "center",
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.8509803921568627
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Value1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Error1",
+            "presence": false,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.11764705882352941
+            },
+            "text-content": "Error",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Value1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.7019607843137254
+            },
+            "text-content": "Value",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Label2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            },
+            "text-content": "Email",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "letter-spacing": 0.15000000596046448,
+            "line-height": 1.5
+          },
+          {
+            "id": "Description2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.4588235294117647
+            },
+            "text-content": "Description",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Input3",
+            "padding": {
+              "left": 16.0,
+              "top": 12.0,
+              "right": 16.0,
+              "bottom": 12.0
+            },
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-alignment": "center",
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.8509803921568627
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Value2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Error2",
+            "presence": false,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.11764705882352941
+            },
+            "text-content": "Error",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Value2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.7019607843137254
+            },
+            "text-content": "Value",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Label3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            },
+            "text-content": "Message",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "letter-spacing": 0.15000000596046448,
+            "line-height": 1.5
+          },
+          {
+            "id": "Description3",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.4588235294117647
+            },
+            "text-content": "Description",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Textarea",
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 80.0
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-alignment": "center",
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.8509803921568627
+            },
+            "is-structured": false,
+            "children": [
+              "Textarea_synth",
+              "Drag"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Hint",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.4588235294117647
+            },
+            "text-content": "Hint",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.4,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Textarea_synth",
+            "opacity": 100.0,
+            "padding": {
+              "left": 16.0,
+              "top": 12.0,
+              "right": 16.0,
+              "bottom": 12.0
+            },
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 272.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-alignment": "center",
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Value3"
+            ]
+          },
+          {
+            "id": "Drag",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -5.372872352600098
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -6.372890472412109
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.627127647399902
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.627117156982422
+              }
+            },
+            "vector-content": "drag.svg"
+          },
+          {
+            "id": "Value3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.7019607843137254
+            },
+            "text-content": "Value",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Button2",
+            "presence": false,
+            "padding": 12.0,
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Star1",
+              "Button4",
+              "X1"
+            ],
+            "item-spacing": 8.0
+          },
+          {
+            "id": "Button3",
+            "padding": 12.0,
+            "border-radius": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.17254901960784313
+            },
+            "arrangement": "row",
+            "children": [
+              "Star2",
+              "Button5",
+              "X2"
+            ],
+            "item-spacing": 8.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 227.14285714285714,
+              "saturation": 0.9130434782608695,
+              "value": 0.3607843137254902
+            }
+          },
+          {
+            "id": "Star1",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon2"
+            ]
+          },
+          {
+            "id": "Button4",
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.18823529411764706
+            },
+            "text-content": "Button",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "typeface": "Inter"
+          },
+          {
+            "id": "X1",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon3"
+            ]
+          },
+          {
+            "id": "Icon2",
+            "margin": {
+              "left": 1.333251953125,
+              "top": 1.3333282470703125,
+              "right": 1.3334150314331055,
+              "bottom": 1.9866714477539062
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Icon3",
+            "margin": 4.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Star2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon4"
+            ]
+          },
+          {
+            "id": "Button5",
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9607843137254902
+            },
+            "text-content": "Submit",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "letter-spacing": 0.15000000596046448,
+            "line-height": 1.5
+          },
+          {
+            "id": "X2",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Icon5"
+            ]
+          },
+          {
+            "id": "Icon4",
+            "margin": {
+              "left": 1.333251953125,
+              "top": 1.3333282470703125,
+              "right": 1.3334150314331055,
+              "bottom": 1.9866714477539062
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Icon5",
+            "margin": 4.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "leading-icon1",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              }
+            },
+            "children": [
+              "container"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "House Selection Title1",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "House Selection",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 22.0,
+            "line-height": 1.272727279663086
+          },
+          {
+            "id": "trailing-icon1",
+            "presence": false,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.0
+              }
+            },
+            "children": [
+              "container1"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "container",
+            "border-radius": 100.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer1"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "state-layer1",
+            "padding": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icon6"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "Icon6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "icon"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icon",
+            "margin": {
+              "left": 3.0,
+              "top": 6.0,
+              "right": 3.0,
+              "bottom": 6.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "container1",
+            "border-radius": 100.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer2"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "state-layer2",
+            "padding": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icon7"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "Icon7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "icon1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icon1",
+            "margin": 2.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "container2",
+            "border-radius": 100.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer3"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "state-layer3",
+            "padding": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icon8"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "Icon8",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "icon2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icon2",
+            "margin": 2.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "icon.svg"
+          },
+          {
+            "id": "container3",
+            "border-radius": 100.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer4"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "state-layer4",
+            "padding": 8.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icon9"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "Icon9",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "icon3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "icon3",
+            "margin": {
+              "left": 3.0,
+              "top": 6.0,
+              "right": 3.0,
+              "bottom": 6.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "icon1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Personal Info",
+      "size": {
+        "width": 412.0,
+        "height": 915.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
