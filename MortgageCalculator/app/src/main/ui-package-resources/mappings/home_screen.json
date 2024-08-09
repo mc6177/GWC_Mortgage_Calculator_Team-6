@@ -1,0 +1,6 @@
+{
+    "target": "HomeScreen",
+    "package": "com.example.mortgagecalculator.homescreen",
+    "generateImplementation": true,
+    "generatePreviews": true
+}
