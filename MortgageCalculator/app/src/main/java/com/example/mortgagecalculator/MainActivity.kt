@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity(), View.OnClickListener {
             editor.putString("password", password)
             editor.apply()
         } else {
-            Toast.makeText(this, "Error! Try Again", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Error! Try Again.", Toast.LENGTH_SHORT).show()
         }
 
     }

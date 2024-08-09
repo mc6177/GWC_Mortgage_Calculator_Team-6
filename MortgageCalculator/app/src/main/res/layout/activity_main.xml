@@ -77,7 +77,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="22dp"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="Passwords"
                 android:inputType="textPassword"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
