@@ -1,76 +1,68 @@
 package com.example.mortgagecalculator
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import androidx.activity.ComponentActivity
-
+import android.widget.Toast
 
 class MainActivity : ComponentActivity() {
-    private lateinit var FirstNameTextView: TextView
-    private lateinit var LastNameTextView: TextView
-    private lateinit var EmailTextView: TextView
-    private lateinit var MessageTextView: TextView
-    private lateinit var Newsletter1TextView: TextView
-    private lateinit var Newsletter2TextView: TextView
-
-    private lateinit var FirstNameEditText: EditText
-    private lateinit var LastNameEditText: EditText
-    private lateinit var EmailEditText: EditText
-    private lateinit var MessageEditText: EditText
-    private lateinit var NewsletterEmailEditText: EditText
-
-    private lateinit var SubmitInquiryButton: Button
-    private lateinit var SubmitEmailButton: Button
-    private lateinit var LogOutButton: Button
+    private lateinit var btnSubmit: Button
+    private lateinit var btnResetPassword: Button
+    private lateinit var etPass: EditText
+    private lateinit var etUser: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        FirstNameTextView = findViewById(R.id.textView6)
-        LastNameTextView = findViewById(R.id.textView7)
-        EmailTextView = findViewById(R.id.textView8)
-        MessageTextView = findViewById(R.id.textView9)
-        Newsletter1TextView = findViewById(R.id.textView10)
-        Newsletter2TextView = findViewById(R.id.textView11)
+        // Initialize UI components
+        btnSubmit = findViewById(R.id.submitButton)
+        btnResetPassword = findViewById(R.id.resetButton)
+        etPass = findViewById(R.id.editTextTextPassword)
+        etUser = findViewById(R.id.editTextTextEmailAddress)
 
-
-        FirstNameEditText = findViewById(R.id.editTextText3)
-        LastNameEditText = findViewById(R.id.editTextText4)
-        EmailEditText = findViewById(R.id.editTextText5)
-        MessageEditText = findViewById(R.id.editTextText6)
-        NewsletterEmailEditText = findViewById(R.id.editTextText7)
-
-        SubmitInquiryButton = findViewById(R.id.button3)
-        SubmitEmailButton = findViewById(R.id.button6)
-        LogOutButton = findViewById(R.id.button7)
-
-        SubmitInquiryButton.setOnClickListener {
-            val firstName = FirstNameEditText.text.toString()
-            val lastName = LastNameEditText.text.toString()
-            val email = EmailEditText.text.toString()
-            val message = MessageEditText.text.toString()
-
-            val userInquiry = mapOf(
-                "firstName" to firstName,
-                "lastName" to lastName,
-                "email" to email,
-                "message" to message
-            )
-        }
-
-
-        SubmitEmailButton.setOnClickListener {
-            val newsletterEmail = NewsletterEmailEditText.text.toString()
-
-            val newsEmail = mapOf(
-                "newsletterEmail" to newsletterEmail
-            )
-        }
-
-        LogOutButton.setOnClickListener {
-        }
+//        // Set onClickListener for the submit button
+//        btnSubmit.setOnClickListener(this)
+//        btnResetPassword.setOnClickListener(this)
     }
+
+//    override fun onClick(view: View?) {
+//        when (view?.id) {
+//            R.id.submitButton -> saveCredentials()
+//            R.id.resetButton -> submitInquiry()
+//            // Handle other button clicks if needed
+//        }
+//    }
+//
+//    private fun submitInquiry(){
+//        val intent = Intent (this, PersonalInfo:: class.java)
+//        startActivity((intent))
+//    }
+
+//    private fun saveCredentials() {
+//        val sharedPref = getSharedPreferences("UserCredentials", Context.MODE_PRIVATE)
+//        val editor = sharedPref.edit()
+//
+//        val email = etUser.text.toString()
+//        val password = etPass.text.toString()
+//
+//        if ((email.length in 4..11) && password.length > 5) {
+//            Toast.makeText(this, "Signing on..", Toast.LENGTH_SHORT).show()
+//
+//            // Save the data in SharedPreferences
+//            editor.putString("username", email)
+//            editor.putString("password", password)
+//            editor.apply()
+//
+//            // Navigate to PersonalInfoActivity
+//            val intent = Intent(this, PersonalInfo::class.java)
+//            startActivity(intent)
+//        } else {
+//            Toast.makeText(this, "Error! Try Again.", Toast.LENGTH_SHORT).show()
+//        }
+//    }
 }

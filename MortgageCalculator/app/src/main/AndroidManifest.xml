@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MortgageCalculator"
         tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".ScrollingActivity"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_scrolling"-->
+<!--            android:theme="@style/Theme.MortgageCalculator.NoActionBar" />-->
+<!--        <activity-->
+<!--            android:name=".PersonalInfo"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".MainActivity"
             android:exported="true"
