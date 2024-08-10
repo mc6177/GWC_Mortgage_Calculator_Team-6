@@ -28,19 +28,6 @@
             <!-- Email Input -->
 
             <Button
-                android:id="@+id/createButton"
-                android:layout_width="135dp"
-                android:layout_height="21dp"
-                android:background="#00FFFFFF"
-                android:backgroundTint="#00FFFFFF"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.021"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
-                app:layout_constraintVertical_bias="0.097" />
-
-            <Button
                 android:id="@+id/resetButton"
                 android:layout_width="135dp"
                 android:layout_height="21dp"
