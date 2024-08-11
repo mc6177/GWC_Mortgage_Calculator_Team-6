@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="413dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="801dp"
+        android:src="@drawable/mortgagecalculatorbanner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="164dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="606dp"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="587dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="House Information"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="231dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="393dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text"
+        android:text="Loan Amount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="242dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="297dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text"
+        android:text="DP Amount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="438dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Loan Payment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="342dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Down Payment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="117dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="757dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="61dp"
+        android:backgroundTint="#081A5C"
+        android:fontFamily="sans-serif-black"
+        android:text="Calculate"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="242dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Loan Duration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="247dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="197dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text"
+        android:text="Duration Amount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

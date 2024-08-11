@@ -1,5 +1,6 @@
 package com.example.mortgagecalculator
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -67,12 +68,13 @@ class MainActivity5 : ComponentActivity() {
             NewsletterEmailEditText.text.clear()
 
         }
-        /*
-           LogOutButton.setOnClickListener {
-               // Create an Intent to start SecondActivity
-               val intent = Intent(this, SecondActivity::class.java)
-               startActivity(intent)
-           }*/
+
+        // Create an Intent to start SecondActivity
+        // CHANGE "SecondActivity" TO DESIRED SCREEN
+        LogOutButton.setOnClickListener {
+            val intent = Intent(this, MainActivity3::class.java)
+            startActivity(intent)
+           }
 
 
     }
