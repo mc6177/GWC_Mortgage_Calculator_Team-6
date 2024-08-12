@@ -1,13 +1,10 @@
 package com.example.mortgagecalculator
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.activity.ComponentActivity
-import android.widget.Toast
 
 class MainActivity : ComponentActivity() {
     private lateinit var btnSubmit: Button
@@ -25,9 +22,11 @@ class MainActivity : ComponentActivity() {
         etPass = findViewById(R.id.editTextTextPassword)
         etUser = findViewById(R.id.editTextTextEmailAddress)
 
-//        // Set onClickListener for the submit button
-//        btnSubmit.setOnClickListener(this)
-//        btnResetPassword.setOnClickListener(this)
+        btnResetPassword.setOnClickListener {
+            val intent = Intent(this, MainActivity5::class.java)
+            startActivity(intent)
+        }
+
     }
 
 //    override fun onClick(view: View?) {
