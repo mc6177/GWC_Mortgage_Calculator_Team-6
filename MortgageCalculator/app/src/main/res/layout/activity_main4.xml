@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewPg4"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginBottom="800dp"
+        android:baselineAligned="false"
+        android:src="@drawable/mortgage_pg4_banner"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!--Text- Cardview 1: Your Calculation-->
+    <TextView
+        android:id="@+id/textView1pg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_calculation"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/cardView1pg4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#081A5C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+
+
+    <!--Text- Cardview 2: Loan Duration-->
+    <TextView
+        android:id="@+id/textView2pg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_duration"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/cardView2pg4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#081A5C"
+        android:textAlignment="center" />
+
+
+    <!--Text- Cardview 3: Loan Rate-->
+    <TextView
+        android:id="@+id/textView3pg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loan_rate"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/cardView3pg4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#081A5C"
+        android:textAlignment="center" />
+
+
+    <!--Text- Cardview 4: Down Payment-->
+    <TextView
+        android:id="@+id/textView4pg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/down_payment"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/cardView4pg4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#081A5C"
+        android:textAlignment="center" />
+
+
+    <!--    Text5: Right above the cardview: Let's Break it Down for You:-->
+
+
+    <TextView
+        android:id="@+id/textView5pg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lets_break_it_down"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/cardView1pg4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#CC2936"
+        android:textAlignment="center" />
+
+
+
+
+    <!--Cardview 1-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1pg4"
+        android:layout_width="245dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.420"
+        app:layout_constraintVertical_bias="0.184">
+
+
+
+
+        <EditText
+            android:id="@+id/editTextNumberPg4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="number" />
+    </androidx.cardview.widget.CardView>
+
+
+    <!--Cardview 2-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2pg4"
+        android:layout_width="245dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.420"
+        app:layout_constraintVertical_bias="0.484">
+
+
+        <!-- Container for TextViews -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+
+            <!-- Top TextView: Your Choice -->
+            <TextView
+                android:id="@+id/textViewTopPg4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_choice"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#081A5C"
+                android:layout_marginBottom="8dp" />
+
+
+            <!-- Bottom TextView: What this means for you -->
+            <TextView
+                android:id="@+id/textViewBottomPg4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/this_means"
+                android:textSize="11sp"
+                android:textColor="#081A5C"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!--Cardview 3-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3pg4"
+        android:layout_width="245dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.420"
+        app:layout_constraintVertical_bias="0.684">
+
+
+        <!-- Container for TextViews -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+
+            <!-- Top TextView: Your Choice -->
+            <TextView
+                android:id="@+id/textViewTopPg4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_choice"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#081A5C"
+                android:layout_marginBottom="8dp" />
+
+
+            <!-- Bottom TextView: What this means for you -->
+            <TextView
+                android:id="@+id/textViewBottomPg4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/this_means"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#081A5C"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!--Cardview 4-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4pg4"
+        android:layout_width="245dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.420"
+        app:layout_constraintVertical_bias="0.884">
+
+
+        <!-- Container for TextViews -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+
+            <!-- Top TextView: Your Choice -->
+            <TextView
+                android:id="@+id/textViewToppg4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_choice"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#081A5C"
+                android:layout_marginBottom="8dp" />
+
+
+            <!-- Bottom TextView: What this means for you -->
+            <TextView
+                android:id="@+id/textViewBottompg4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/this_means"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#081A5C"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Mortgage Calculator</string>
+    <string name="your_calculation">Your Calculation:</string>
+    <string name="loan_duration">Loan Duration:</string>
+    <string name="loan_rate">Loan Rate:</string>
+    <string name="down_payment">Down Payment:</string>
+    <string name="lets_break_it_down">Let us Break it Down for You!</string>
+    <string name="this_means">This Means:</string>
+    <string name="your_choice">Your Choice:</string>
 </resources>
