@@ -20,17 +20,17 @@
 <!--        <activity-->
 <!--            android:name=".PersonalInfo"-->
 <!--            android:exported="false" />-->
+
+
         <activity
-            android:name=".MainActivity5"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MortgageCalculator">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity5" />
         <activity android:name=".MainActivity3" />
     </application>
 
