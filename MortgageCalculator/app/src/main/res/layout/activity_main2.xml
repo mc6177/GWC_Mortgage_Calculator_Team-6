@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Banner as an ImageView -->
+
+    <!-- RecyclerView for CardViews -->
+
+    <ImageView
+        android:id="@+id/imageViewPg2"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:contentDescription="Image View Pg 2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mortgage_house_selection_pg2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"/>
+
+</LinearLayout>
+

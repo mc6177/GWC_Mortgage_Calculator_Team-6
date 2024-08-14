@@ -2,9 +2,6 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="Mortgage Calc">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="Mortgage_Calculator.app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>

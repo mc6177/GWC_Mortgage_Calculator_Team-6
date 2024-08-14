@@ -28,6 +28,14 @@ class MainActivity : ComponentActivity() {
 //        // Set onClickListener for the submit button
 //        btnSubmit.setOnClickListener(this)
 //        btnResetPassword.setOnClickListener(this)
+        btnSubmit.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
+        }
+        btnResetPassword.setOnClickListener {
+            val intent = Intent(this, MainActivity5::class.java)
+            startActivity(intent)
+        }
     }
 
 //    override fun onClick(view: View?) {

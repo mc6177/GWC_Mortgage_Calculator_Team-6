@@ -72,7 +72,7 @@ class MainActivity5 : ComponentActivity() {
         // Create an Intent to start SecondActivity
         // CHANGE "SecondActivity" TO DESIRED SCREEN
         LogOutButton.setOnClickListener {
-            val intent = Intent(this, MainActivity3::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
            }
 

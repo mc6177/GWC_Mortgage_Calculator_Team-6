@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1">
 
         <!-- Background Image -->
@@ -27,6 +27,8 @@
 
             <!-- Email Input -->
 
+            <!-- Password Input -->
+
             <Button
                 android:id="@+id/resetButton"
                 android:layout_width="135dp"
@@ -35,27 +37,27 @@
                 android:backgroundTint="#00FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.978"
+                app:layout_constraintHorizontal_bias="0.858"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
-                app:layout_constraintVertical_bias="0.115" />
+                app:layout_constraintVertical_bias="0.061" />
 
             <EditText
                 android:id="@+id/editTextTextEmailAddress"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="22dp"
-                android:layout_marginTop="364dp"
+                android:layout_marginTop="356dp"
                 android:layout_marginEnd="22dp"
                 android:autofillHints=""
                 android:ems="10"
                 android:hint="Email Address"
                 android:inputType="textEmailAddress"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <!-- Password Input -->
             <EditText
                 android:id="@+id/editTextTextPassword"
                 android:layout_width="0dp"
@@ -82,7 +84,7 @@
                 app:layout_constraintHorizontal_bias="0.537"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/editTextTextPassword"
-                app:layout_constraintVertical_bias="0.38" />
+                app:layout_constraintVertical_bias="0.342" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </RelativeLayout>

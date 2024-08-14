@@ -27,7 +27,7 @@ class MainActivity3:ComponentActivity() {
 
         // Initialize Components
         // Make sure it matches ID in xml file
-        HouseImageView = findViewById(R.id.imageView3)
+//        HouseImageView = findViewById(R.id.imageView3)
         HouseCaptionTextView = findViewById(R.id.textView7)
         LoanAmountEditText = findViewById(R.id.editTextText6)
         DPEditText = findViewById(R.id.editTextText7)
@@ -45,7 +45,7 @@ class MainActivity3:ComponentActivity() {
 
             // Create an Intent to start SecondActivity
             // CHANGE "SecondActivity" TO DESIRED SCREEN
-            val intent = Intent(this, MainActivity5::class.java)
+            val intent = Intent(this, MainActivity4::class.java)
 
             // Pass the user input to the SecondActivity
             intent.putExtra("LOAN_AMOUNT", LoanAmount)
@@ -56,6 +56,18 @@ class MainActivity3:ComponentActivity() {
             startActivity(intent)
         }
 
+        // M CHanges: Retrieve the data passed from MainActivity2
+        val houseLocation = intent.getStringExtra("house_location")
+        val housePrice = intent.getStringExtra("house_price")
+        val houseImageResId = intent.getIntExtra("house_image_res_id", R.drawable.house1)
 
+        // Example of setting this data to a TextView
+        val locationTextView: TextView = findViewById(R.id.locationTextView)
+        val priceTextView: TextView = findViewById(R.id.priceTextView)
+        val houseImageView: ImageView = findViewById(R.id.houseImage)
+
+        locationTextView.text = houseLocation
+        priceTextView.text = housePrice
+        houseImageView.setImageResource(houseImageResId)
 }
 }
