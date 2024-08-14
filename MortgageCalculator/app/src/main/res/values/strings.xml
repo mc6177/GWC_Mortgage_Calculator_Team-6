@@ -7,4 +7,6 @@
     <string name="lets_break_it_down">Let us Break it Down for You!</string>
     <string name="this_means">This Means:</string>
     <string name="your_choice">Your Choice:</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="log_out">Log Out</string>
 </resources>

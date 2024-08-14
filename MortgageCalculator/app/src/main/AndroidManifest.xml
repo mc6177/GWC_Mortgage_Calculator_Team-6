@@ -12,14 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MortgageCalculator"
         tools:targetApi="31">
-<!--        <activity-->
-<!--            android:name=".ScrollingActivity"-->
-<!--            android:exported="false"-->
-<!--            android:label="@string/title_activity_scrolling"-->
-<!--            android:theme="@style/Theme.MortgageCalculator.NoActionBar" />-->
-<!--        <activity-->
-<!--            android:name=".PersonalInfo"-->
-<!--            android:exported="false" />-->
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity4" />
         <activity
             android:name=".MainActivity5"
             android:exported="true"
@@ -27,11 +24,10 @@
             android:theme="@style/Theme.MortgageCalculator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity3" />
+
     </application>
 
 </manifest>

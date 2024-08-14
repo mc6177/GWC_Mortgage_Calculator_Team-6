@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="8dp"-->
+<!--    android:elevation="4dp">-->
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- House Image -->
+            <ImageView
+                android:id="@+id/houseImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop" />
+
+            <!-- Location (Town, State) -->
+            <TextView
+                android:id="@+id/houseLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Price -->
+            <TextView
+                android:id="@+id/housePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:padding="16dp">-->
+
+    <!--        &lt;!&ndash; House Image &ndash;&gt;-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/houseImage"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="200dp"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            android:src="@drawable/house1" />-->
+
+    <!--        &lt;!&ndash; Location (Town, State) &ndash;&gt;-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/houseLocation"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Town, State"-->
+    <!--            android:textSize="16sp"-->
+    <!--            android:layout_marginTop="8dp"/>-->
+
+    <!--        &lt;!&ndash; Price &ndash;&gt;-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/housePrice"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Price"-->
+    <!--            android:textSize="18sp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:layout_marginTop="4dp"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <!--</androidx.cardview.widget.CardView>-->
